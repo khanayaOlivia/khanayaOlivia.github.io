@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom's Birthday Celebration!!!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #fddfdf; 
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .content {
+            text-align: center;
+            font-family: 'fanlste';
+            margin-bottom: 20px;
+        }
+
+        .moving-text {
+            font-size: 24px;
+            color: #ff6b6b; 
+            animation: moveText 4s linear infinite alternate;
+        }
+
+        @keyframes moveText {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(10px);
+            }
+        }
+
+        .moving-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: moveImages 6s linear infinite alternate;
+        }
+
+        @keyframes moveImages {
+            from {
+                transform: translateX(-10px);
+            }
+            to {
+                transform: translateX(10px);
+            }
+        }
+
+        img {
+            width: 150px; 
+            height: auto;
+            border-radius: 50%;
+            margin: 20px;
+        }
+
+        p {
+            font-family: 'analogist';
+            font-size: 14px;
+            text-align: center;
+            font-weight: normal;
+            color: #8dada9;
+            max-width: 600px; 
+            margin: 0 auto; 
+        }
+
+        footer p {
+            text-align: center;
+        }
+        body {
+            .heart {
+    animation: heartbeat 1s infinite;
+    color: #ff6b6b;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+    background: linear-gradient(45deg, #fddfdf, #fbd3e9);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.moving-images img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1 class="moving-text">Happy Birthday, mama! <i class="fas fa-heart"></i></h1>
+        <div class="moving-images">
+            <img src="mama 1.jpg" alt="Cute Image 1">
+            <img src="mama 2.jpg" alt="Cute Image 2">
+        </div>
+        <i class="fas fa-heart"></i>
+    </div>
+    <p>Selamat Ulang tahun mama! Maaf ya kakak telat ngucapin ulang tahun ke mamah. Kakak sayaaaang banget sama mamah dan papah. Kakak doain yang terbaik buat mamah. 
+        Semoga mamah panjang umur dan sehat selalu. 
+        Semoga rezeki nya di lancarkan oleh Allah. 
+        Kakak disini akan belajar yang bener biar bisa dapat ipk yang memuaskan (aminn) 
+        jadi doakan kakak biar bisa jadi orang sukses dan bisa banggain 
+        dan menaikkan derajat mama dan papa. 
+        Sekali lagi selamat ulang tahun mama! <span class="heart" aria-label="Love">❤️</span></p>
+
+
+          
+            <p>Play this video, mom!</p>
+            <iframe width="560" height="315" src="https://youtube.com/shorts/VR8lq17okJE" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+</div>
+</body>
+</html>
